@@ -1,6 +1,6 @@
-from collections import Iterable
 import json
 import os
+from collections.abc import Iterable
 
 from django.db.models.fields.related import ForeignKey
 from django.conf import settings as django_settings

@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = ">=3.8"
+django-filter = ">=2.0"
+factory-boy = ">=2.8.1"
+tox = "*"
+pytest = "*"
+pytest-django = "*"
+Django = ">=2.0"
+Inflector = ">=2.0.11"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
